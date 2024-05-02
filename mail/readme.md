@@ -24,7 +24,7 @@ Che ci sia un array da qualche parte?
 
 ## SVOLGIMENTO:
 ### MAIL
-1. Dichiaro var, con il prompt chiedo all'utente di immettere la sua email e salvo il nome dell'utente;
+1. Dichiaro var, con il prompt chiedo all'utente di immettere la sua email e salvo l'email dell'utente;
 2. Creo un arrey di nomi che confronterò con il nome dell'utente;
 3. Dichiaro una variabile `trovato` con valore `false`:
 ```
