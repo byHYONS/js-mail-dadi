@@ -10,7 +10,7 @@
 const emailLista = ['samuele', 'jonathan', 'marsela', 'elisa', 'paola', 'pietro', 'gaetano'];
 console.log(emailLista);
 
-const emailUtente = prompt('Inserisci il tuo nome').toLowerCase();
+const emailUtente = prompt('Inserisci la tua email').toLowerCase();
 console.log({emailUtente});
 
 let trovato = false;
@@ -24,7 +24,6 @@ for (let i = 0; i<emailLista.length; i++){
 }
 
 console.log(trovato);
-console.log(trovato ? 'Nome Presente' : 'Nome Assente');
+console.log(trovato ? 'Email Presente' : 'Email Assente');
 
 alert(trovato ? 'La tua email è presente nella lista, puoi accedere al servizio!' : 'La tua email non è nella lista, non puoi accedere al servizio!')
-
