@@ -20,7 +20,7 @@ section {
     background-color: #fff;
     text-align: center;
     width: 60%;
-    height: 60%;
+    height: 45%;
     margin: auto;
     border-radius: 15px;
 }
@@ -54,3 +54,4 @@ p {
     box-shadow: 1px 1px 15px rgba(00, 00, 00, 0.1);
 }
 
+/* FINE */

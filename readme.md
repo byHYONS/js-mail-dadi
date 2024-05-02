@@ -48,7 +48,7 @@ alert(trovato ? 'email presente nella lista' : 'email assente nella lista')
 ##### FINE
 
 ### GIOCO DEI DADI
-1. dichiaro due variabili con un arrey dove metto 6 numeri da 1 a 6;
+1. dichiaro due variabili con un arrey dove metto `6 numeri da 1 a 6`;
 2. creo un bottone dove ad ogni click equivale ad un lancio di dadi, faccio un eventlistener dove ad ogni click avviene la scelta random dei 6 numeri:
 ```
 document.querySelector('button').addEventListener('click', function(){
@@ -58,7 +58,7 @@ document.querySelector('button').addEventListener('click', function(){
     console.log(numeroBot);
 
     ...
-}
+});
 ```
 3. creo una istruzione condizionale dove inposto le regole per decretare chi vince o chi perde ed eventualmente il pareggio:
 ```
