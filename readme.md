@@ -48,6 +48,8 @@ alert(trovato ? 'email presente nella lista' : 'email assente nella lista')
 ##### FINE
 
 ### GIOCO DEI DADI
+Anche se non c'è bisogno di utilizzare un arrey, proviamo comunque ad utilizzarli per fare pratica sugli argomenti trattati.
+Senza arrey avremmo potuto generare due numero di 6 randomico e poi confrontarli e in base a delle istruzioni condizionali stampare il risultto.
 1. dichiaro due variabili con un arrey dove metto `6 numeri da 1 a 6`;
 2. creo un bottone dove ad ogni click equivale ad un lancio di dadi, faccio un eventlistener dove ad ogni click avviene la scelta random dei 6 numeri:
 ```

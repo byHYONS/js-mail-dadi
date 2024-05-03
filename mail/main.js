@@ -20,6 +20,7 @@ for (let i = 0; i<emailLista.length; i++){
 
     if (emailLista[i] === emailUtente){
         trovato = true;
+        break
     }    
 }
 
