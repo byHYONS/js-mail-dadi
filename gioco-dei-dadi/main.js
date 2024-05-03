@@ -13,10 +13,12 @@ const risultato = document.querySelector('p');
 
 document.querySelector('button').addEventListener('click', function(){
     
-    let numeroUtente = Math.floor(Math.random() * dadoUtente.length) + 1;
+    let randomUtente = Math.floor(Math.random() * dadoUtente.length);
+    let numeroUtente = dadoUtente[randomUtente];
     console.log(numeroUtente);
     
-    let numeroBot = Math.floor(Math.random() * dadoBot.length) + 1;
+    let randomBot = Math.floor(Math.random() * dadoBot.length);
+    let numeroBot = dadoBot[randomBot];
     console.log(numeroBot);
 
     if (numeroUtente > numeroBot){

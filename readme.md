@@ -52,9 +52,11 @@ alert(trovato ? 'email presente nella lista' : 'email assente nella lista')
 2. creo un bottone dove ad ogni click equivale ad un lancio di dadi, faccio un eventlistener dove ad ogni click avviene la scelta random dei 6 numeri:
 ```
 document.querySelector('button').addEventListener('click', function(){
-    let numeroUtente = Math.floor(Math.random() * dadoUtente.length) + 1;
+    let randomUtente = Math.floor(Math.random() * dadoUtente.length);
+    let numeroUtente = dadoUtente[randomUtente];
     console.log(numeroUtente);
-    let numeroBot = Math.floor(Math.random() * dadoBot.length) + 1;
+    let randomBot = Math.floor(Math.random() * dadoBot.length);
+    let numeroBot = dadoBot[randomBot];
     console.log(numeroBot);
 
     ...
